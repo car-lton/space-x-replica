@@ -37,7 +37,7 @@ nav ul li a {
   font-size: 16px;
   
 }
-.nav ul li a :hover{
+.nav ul li a:hover{
     color: red;
 }
 .hero{
@@ -45,6 +45,200 @@ nav ul li a {
     height: 100vh;
 
 }
-.hero-content{
-    color: black;
+.hero-content h3{
+    color: white;
+    padding-top: 350px;
+    font-size: 50px;
+    padding-left: 70px;
+}
+.hero-content button{
+  border: solid white 2px;
+ margin-left: 70px;
+ margin-top: 30px;
+ padding: 20px;
+ font-size: 2opx;
+ background-color: transparent;
+ color: white;
+ 
+}
+.hero-content button:hover{
+    border: solid white 2px;
+ margin-left: 70px;
+ margin-top: 30px;
+ padding: 20px;
+ font-size: 2opx;
+ background-color: transparent;
+ color: white;
+}
+.mission{
+  background-image:url(/assets/ChatGPT\ Image\ Jul\ 1\,\ 2025\,\ 01_41_10\ PM.png);
+  height: 100vh;
+}
+.mission-content h1{
+  padding-top: 350px;
+  color: white;
+  font-size: 50px;
+  padding-left: 70px;
+
+}
+.mission-content strong{
+  color: white;
+  font-size: 50px;
+  padding: top 0px;
+  padding-left: 70px;
+}
+.mission-content button{
+    border: solid white 2px;
+ margin-left: 70px;
+ margin-top: 30px;
+ padding: 15px;
+ font-size: 2opx;
+ background-color: transparent;
+ color: white;
+
+}
+.mission-content button:hover{
+    background-color: white;
+  color: black;
+}
+.launch{
+  background-image: url(/assets/launch.png);
+  height: 100vh;
+  background-repeat:no-repeat ;
+  background-size: cover;
+  
+}
+.launch-content h3{
+  color: white;
+    padding-top: 350px;
+  color: white;
+  font-size: 15px;
+  padding-left: 70px;
+}
+  
+.launch-content h1{
+  font-size: 50px;
+  color: white;
+  padding-left: 70px;
+}
+.launch-content button{
+      border: solid white 2px;
+ margin-left: 70px;
+ margin-top: 30px;
+ padding: 15px;
+ font-size: 15px;
+ background-color: transparent;
+ color: white;
+
+}
+.launch-content button:hover{
+    background-color: white;
+  color: black;
+}
+.upcoming{
+  background-image: url(/assets/starlink.jpg);
+  height: 100vh;
+  background-repeat:no-repeat ;
+  background-size: cover;
+}
+.upcoming-content h3{
+  color: white;
+    padding-top: 350px;
+  color: white;
+  font-size: 15px;
+  padding-left: 70px;
+  
+}
+.upcoming-content h1{
+   font-size: 50px;
+  color: white;
+  padding-left: 70px;
+}
+.upcoming-content button{
+       border: solid white 2px;
+ margin-left: 70px;
+ margin-top: 20px;
+ padding: 15px;
+ font-size: 15px;
+ background-color: transparent;
+ color: white;
+
+}
+.upcoming-content button:hover{
+  background-color: white;
+  color: black;
+}
+.recent{
+  background-image: url(/assets/lock.png);
+  height: 100vh;
+  background-repeat:no-repeat ;
+  background-size: cover;
+
+}
+.recent-content h3{
+  color: white;
+    padding-top: 350px;
+  color: white;
+  font-size: 20px;
+  padding-left: 70px;
+  
+}
+  .recent-content h1{
+   font-size: 50px;
+  color: white;
+  padding-left: 70px;
+  }
+  .recent-content button{
+       border: solid white 2px;
+ margin-left: 70px;
+ margin-top: 20px;
+ padding: 15px;
+ font-size: 15px;
+ background-color: transparent;
+ color: white;
+
+}
+.recent-content button:hover{
+  background-color: white;
+  color: black;
+}
+.space{
+  background-image: url(/assets/x.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.space-content h1{
+   padding-top: 350px;
+  color: white;
+  font-size: 50px;
+  padding-left: 70px;
+}
+.space-content button{
+   border: solid white 2px;
+ margin-left: 70px;
+ margin-top: 20px;
+ padding: 15px;
+ font-size: 15px;
+ background-color: transparent;
+ color: white;
+}
+.space-content button:hover{
+  background-color: white;
+  color: black;
+}
+.footer{
+  background-color: black;
+  padding-top: 20px;
+  display:flex;
+  justify-content: space-between;
+  
+}
+.footer-content h4{
+  color: white;
+  display:flex;
+  gap: 10px;
+  font-size: 10px;
+  padding-left: 500px;
+  
 }
