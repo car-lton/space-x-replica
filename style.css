@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
 
@@ -61,14 +60,18 @@ nav ul li a {
  color: white;
  
 }
-.hero-content button:hover{
-    border: solid white 2px;
+.hero-content button{
+   border: solid white 2px;
  margin-left: 70px;
  margin-top: 30px;
  padding: 20px;
  font-size: 2opx;
  background-color: transparent;
  color: white;
+}
+.hero-content button:hover{
+  background-color: white;
+  color: black;
 }
 .mission{
   background-image:url(/assets/ChatGPT\ Image\ Jul\ 1\,\ 2025\,\ 01_41_10\ PM.png);
@@ -230,15 +233,16 @@ nav ul li a {
 .footer{
   background-color: black;
   padding-top: 20px;
-  display:flex;
   justify-content: space-between;
+ 
   
 }
-.footer-content h4{
+.footer-content{
   color: white;
   display:flex;
   gap: 10px;
   font-size: 10px;
-  padding-left: 500px;
+  padding-left: 580px;
+
   
 }
